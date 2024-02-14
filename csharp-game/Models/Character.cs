@@ -17,6 +17,7 @@ namespace csharp_game.Models
 
         public int TotalExperience { get; set; }
 
+        public Inventory Inventory { get; set; }
         public Stats Stats { get; set; }
 
         // Navigation property
