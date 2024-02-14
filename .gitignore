@@ -485,3 +485,4 @@ exercise.wwwapi/Migrations
 csharp-auth-jwt/appsettings.json
 csharp-auth-jwt/appsettings.Development.json
 csharp-game/appsettings.Development.json
+csharp-game/appsettings.json
