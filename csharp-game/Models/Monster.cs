@@ -9,6 +9,6 @@ namespace csharp_game.Models
 
         public string MonsterName { get; set; }
 
-        public string MonsterStats { get; set; } // This could be a JSON string
+        public Stats Stats { get; set; } // This could be a JSON string
     }
 }

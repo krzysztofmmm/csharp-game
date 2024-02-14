@@ -7,9 +7,9 @@ namespace csharp_game.Models
     {
         public int Id { get; set; }
 
-        public string ItemName { get; set; }
+        public string? ItemName { get; set; }
 
-        public string ItemDescription { get; set; }
+        public string? ItemDescription { get; set; }
 
         public int ItemCost { get; set; }
 

@@ -6,6 +6,7 @@ namespace csharp_game.Models
     public class Character
     {
         public int Id { get; set; }
+        public string? Name { get; set; }
 
         [ForeignKey("ApplicationUser")]
         public string? UserId { get; set; }
