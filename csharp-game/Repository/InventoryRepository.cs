@@ -34,7 +34,7 @@ namespace csharp_game.Repository
                 throw new Exception("Character not found.");
             }
 
-            var item = character.Inventory.Items.FirstOrDefault(i => i.Id == itemId);
+            var item = character.Inventory.Item.FirstOrDefault(i => i.Id == itemId);
             if(item == null)
             {
                 throw new Exception("Item not found in inventory.");
@@ -79,7 +79,7 @@ namespace csharp_game.Repository
                 throw new Exception("Item not found in inventory.");
             }
 
-            character.Inventory.Items.Remove(item);
+            character.Inventory.Item.Remove(item);
             _context.Items.Remove(item);
             await _context.SaveChangesAsync();
         }
