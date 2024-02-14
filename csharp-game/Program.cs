@@ -1,8 +1,10 @@
-// Program.cs
+//1: TODO: Add another endpoints, add containerization, Add additional funncionalities
+
 using csharp_game.Data;
 using csharp_game.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
